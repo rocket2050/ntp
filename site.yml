@@ -1,0 +1,4 @@
+---
+- hosts: ntphost
+  roles:
+    - { role: "ntp" }
